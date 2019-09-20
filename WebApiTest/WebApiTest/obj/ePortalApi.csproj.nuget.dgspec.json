@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\WebApiTest\\ePortalApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\ApiConnection\\ApiConnection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\ApiConnection\\ApiConnection.csproj",
+        "projectName": "ApiConnection",
+        "projectPath": "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\ApiConnection\\ApiConnection.csproj",
+        "packagesPath": "C:\\Users\\Kenneth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\ApiConnection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kenneth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\WebApiTest\\ePortalApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\WebApiTest\\ePortalApi.csproj",
+        "projectName": "ePortalApi",
+        "projectPath": "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\WebApiTest\\ePortalApi.csproj",
+        "packagesPath": "C:\\Users\\Kenneth\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\WebApiTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kenneth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\ApiConnection\\ApiConnection.csproj": {
+                "projectPath": "C:\\Users\\Kenneth\\source\\repos\\Pruebas-Tecnicas\\WebApiTest\\ApiConnection\\ApiConnection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Api.Analyzers": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

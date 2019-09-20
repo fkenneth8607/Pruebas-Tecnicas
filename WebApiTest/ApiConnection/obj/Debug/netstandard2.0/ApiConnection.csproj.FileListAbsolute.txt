@@ -1,0 +1,9 @@
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\bin\Debug\netstandard2.0\ApiConnection.deps.json
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\bin\Debug\netstandard2.0\ApiConnection.dll
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\bin\Debug\netstandard2.0\ApiConnection.pdb
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\obj\Debug\netstandard2.0\ApiConnection.csprojAssemblyReference.cache
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\obj\Debug\netstandard2.0\ApiConnection.csproj.CoreCompileInputs.cache
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\obj\Debug\netstandard2.0\ApiConnection.AssemblyInfoInputs.cache
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\obj\Debug\netstandard2.0\ApiConnection.AssemblyInfo.cs
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\obj\Debug\netstandard2.0\ApiConnection.dll
+C:\Users\Kenneth\source\repos\WebApiTest\ApiConnection\obj\Debug\netstandard2.0\ApiConnection.pdb
